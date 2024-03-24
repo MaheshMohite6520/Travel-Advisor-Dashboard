@@ -667,10 +667,11 @@ body {
 .copyright-link:is(:hover, :focus) { text-decoration: none; }
 
 .social-list {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
 }
 
 .social-link {
@@ -782,7 +783,14 @@ body {
   .popular-list,
   .blog-list { grid-template-columns: 1fr 1fr; }
 
-
+.blog-info {
+  margin-top: 40px;
+  font-family: var(--ff-heebo);
+  font-size: 20px;
+  /* font-weight: bolder; */
+  line-height: 35px;
+  text-indent: 70px;
+}
 
   /**
    * HERO
@@ -819,7 +827,7 @@ body {
   .footer { --fs-7: 1.6rem; }
 
   .footer-bottom {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
   }
