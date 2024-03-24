@@ -519,7 +519,7 @@ body {
 .about-item {
   display: flex;
   align-items: flex-start;
-  gap: 15px;
+  gap: 20px;
 }
 
 .about-item-icon {
@@ -534,7 +534,7 @@ body {
 .about-item-title {
   color: var(--granite-gray);
   font-weight: var(--fw-600);
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 
